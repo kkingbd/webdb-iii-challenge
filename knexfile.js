@@ -5,5 +5,8 @@ module.exports = {
       connection : {
         filename: './data/md.sqlite3'
       },
+      migrations:{
+        directory: './migrations'
+      },
     }
 };
